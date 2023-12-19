@@ -1,7 +1,7 @@
 export default () => {
   return (
-    <header className=" font-Satoshi text-gray-700">
-      <nav className="flex h-20 flex-row items-center justify-around px-5 pt-5">
+    <header className=" mt-5 font-Satoshi text-gray-700">
+      <nav className="flex h-20 flex-row items-center justify-between px-24">
         <h3 className="h-[32px] w-[91px] text-center text-2xl font-bold leading-8 tracking-[-0.48px] text-gray-700">
           UniCraft
         </h3>
