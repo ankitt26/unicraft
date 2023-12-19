@@ -1,11 +1,11 @@
+import React from "react";
 import "./App.css";
+import Header from "./components/header";
 
 function App() {
   return (
     <>
-      <h1 className="text-4xl text-red-500 m-auto my text-center">
-        hello tailwind
-      </h1>
+      <Header />
     </>
   );
 }
