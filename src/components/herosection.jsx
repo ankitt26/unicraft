@@ -10,7 +10,7 @@ export const HeroSection = () => {
   return (
     <>
       <div className="mb-10 mt-24 flex h-auto w-full flex-col items-center gap-y-7 font-Satoshi">
-        <h2 className="mx-auto w-4/5 break-words text-center font-Satoshi text-7xl font-black leading-[85px] text-gray-800">
+        <h2 className="mx-auto w-11/12 break-words text-center font-Satoshi text-7xl font-black leading-[85px] text-gray-800">
           Elevate Your Presence with Seamless Design and Innovation.
         </h2>
         <p className=" w-4/5 break-words text-center font-Satoshi text-xl font-medium text-gray-600">
@@ -27,7 +27,7 @@ export const HeroSection = () => {
           <div className=" break-words text-center text-sm font-medium text-gray-400">
             Trusted By 250+ Companies
           </div>
-          <div className=" w-mv flex flex-row justify-evenly py-4">
+          <div className=" w-mv flex flex-row flex-wrap justify-evenly gap-3 py-4">
             <img className="" src={Zapier} alt="Zapier" />
             <img className="" src={Spotify} alt="Spotify" />
             <img className="" src={Zoom} alt="Zoom" />
