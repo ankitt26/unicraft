@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/header";
 import { HeroSection } from "./components/herosection";
 import RecentWork from "./components/recentwork";
+import HowItWork from "./components/howitwork";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <HeroSection />
       <RecentWork />
+      <HowItWork />
     </>
   );
 }
