@@ -6,6 +6,7 @@ import RecentWork from "./components/recentwork";
 import HowItWork from "./components/howitwork";
 import Quote from "./components/quote";
 import Pricing from "./components/pricing";
+import FAQ from "./components/faq";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <HowItWork />
       <Quote />
       <Pricing />
+      <FAQ />
     </>
   );
 }
