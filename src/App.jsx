@@ -6,7 +6,8 @@ import RecentWork from "./components/recentwork";
 import HowItWork from "./components/howitwork";
 import Quote from "./components/quote";
 import Pricing from "./components/pricing";
-import FAQ from "./components/faq";
+import FAQ from "./components/FAQ";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Quote />
       <Pricing />
       <FAQ />
+      <Footer />
     </>
   );
 }

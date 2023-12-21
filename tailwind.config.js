@@ -25,6 +25,9 @@ export default {
 
         lg: { min: "1024px", max: "1279px" },
       },
+      backgroundImage: {
+        Gradiant: "url('/src/assets/background/Gradient.png')",
+      },
     },
   },
   plugins: [],
