@@ -11,9 +11,27 @@ export default function Pricing() {
           actually message customers. Everyone else is free, forever.
         </p>
         <div className="mt-[48px] flex w-full flex-row flex-wrap items-center justify-evenly gap-6">
-          <Plans mode="normal" access={2} />
-          <Plans mode="dark" access={5} />
-          <Plans mode="normal" access={8} />
+          <Plans
+            name="Freebie"
+            para="Ideal for individuals who need quick access to basic features."
+            cost="0"
+            mode="normal"
+            access={2}
+          />
+          <Plans
+            name="Professional"
+            para="Ideal for individuals who who need advanced features and tools for client work."
+            cost="25"
+            mode="dark"
+            access={5}
+          />
+          <Plans
+            name="Enterprise"
+            para="Ideal for businesses who need personalized services and security for large teams. "
+            cost="100"
+            mode="normal"
+            access={8}
+          />
         </div>
       </div>
     </div>

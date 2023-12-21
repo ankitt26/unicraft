@@ -3,7 +3,7 @@ import Tick800 from "../../assets/ticks/tick_800.svg";
 import TickWhite from "../../assets/ticks/tick_white.svg";
 import { NormalThemeColors, DarkThemeColors } from "./theme";
 
-export default function Plans({ access, mode }) {
+export default function Plans({ name, para, cost, access, mode }) {
   const theme = mode === "dark" ? DarkThemeColors : NormalThemeColors;
 
   return (
@@ -15,19 +15,19 @@ export default function Plans({ access, mode }) {
       >
         <div className="flex h-[85px] flex-col items-start justify-start gap-[11px] self-stretch">
           <h4 className={`self-stretch text-[22px] font-bold ${theme.heading}`}>
-            Freebie
+            {name}
           </h4>
-          <p
-            className={`h-[44px]  w-[298px] text-base font-medium ${theme.paragraph}`}
-          >
-            Ideal for individuals who need quick access to basic features.
+          <p className={`h-[44px] text-base font-medium ${theme.paragraph}`}>
+            {para}
           </p>
         </div>
 
         <div
           className={`inline-flex h-[76px] w-[330.67px] items-center justify-start gap-2 `}
         >
-          <div className={`text-[56px] font-medium ${theme.price}`}>$0</div>
+          <div className={`text-[56px] font-medium ${theme.price}`}>
+            ${cost}
+          </div>
           <div className={`text-base font-normal ${theme.month}`}>/ Month</div>
         </div>
         <button
