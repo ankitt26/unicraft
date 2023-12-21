@@ -5,6 +5,7 @@ import { HeroSection } from "./components/herosection";
 import RecentWork from "./components/recentwork";
 import HowItWork from "./components/howitwork";
 import Quote from "./components/quote";
+import Pricing from "./components/pricing";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <RecentWork />
       <HowItWork />
       <Quote />
+      <Pricing />
     </>
   );
 }
