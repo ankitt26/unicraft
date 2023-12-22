@@ -8,7 +8,7 @@ export default function Plans({ name, para, cost, access, mode }) {
 
   return (
     <div
-      className={`flex h-[640px] flex-col items-start justify-start gap-10 rounded-2xl border ${theme.border} ${theme.sectionBackground} px-6 py-10`}
+      className={`flex h-[640px] flex-col items-start justify-start gap-10 rounded-2xl border ${theme.border} ${theme.sectionBackground} px-6 py-10 shadow-xl`}
     >
       <div
         className={`inline-flex h-[249px] w-[330.67px] flex-col items-start justify-start gap-5`}
@@ -31,7 +31,7 @@ export default function Plans({ name, para, cost, access, mode }) {
           <div className={`text-base font-normal ${theme.month}`}>/ Month</div>
         </div>
         <button
-          className={` inline-flex h-11 w-[330.67px] items-center justify-center gap-1 rounded-lg border px-3 py-1.5 text-center text-base font-bold ${theme.buttonBorder} ${theme.buttonBackground} ${theme.buttonText}`}
+          className={` inline-flex h-11 w-[330.67px] items-center justify-center gap-1 rounded-lg border px-3 py-1.5 text-center text-base font-bold shadow-md ${theme.buttonBorder} ${theme.buttonBackground} ${theme.buttonText} hover:border-white hover:bg-gray-800 hover:text-gray-50 `}
           role="button"
         >
           Get Started Now

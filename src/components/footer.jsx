@@ -4,6 +4,7 @@ import Facebook from "../assets/socialIcons/Facebook.svg";
 import Github from "../assets/socialIcons/Github.svg";
 import Finger from "../assets/socialIcons/Finger.svg";
 import Browser from "../assets/socialIcons/Browser.svg";
+import Button from "./mini/button";
 export default function Footer() {
   return (
     <>
@@ -16,12 +17,7 @@ export default function Footer() {
           <p className=" mt-3 w-4/5 break-words text-center font-Satoshi text-xl font-medium text-gray-600">
             Start your 30-day free trial. Cancel anytime.
           </p>
-          <button
-            className="break-words rounded-lg bg-gray-800 px-[51px] py-[16px] font-Satoshi text-xl font-bold text-gray-50 shadow-md"
-            text="View Pricing"
-          >
-            View Pricing
-          </button>
+          <Button text={"View Pricing"} variant={"dark"} />
         </div>
 
         {/* social icons */}

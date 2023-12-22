@@ -5,6 +5,7 @@ import Zoom from "../assets/companies/Zoom.svg";
 import Slack from "../assets/companies/Slack.svg";
 import Amazon from "../assets/companies/Amazon.svg";
 import Adobe from "../assets/companies/Adobe.svg";
+import Button from "./mini/button";
 
 export const HeroSection = () => {
   return (
@@ -17,12 +18,7 @@ export const HeroSection = () => {
           From strategic planning to digital presence, we&#39;re your dedicated
           partner in achieving solo success.
         </p>
-        <button
-          className="break-words rounded-lg bg-gray-800 px-[51px] py-[16px] font-Satoshi text-xl font-bold text-gray-50 shadow-md"
-          text="View Pricing"
-        >
-          View Pricing
-        </button>
+        <Button text={"View Pricing"} variant={"dark"} />
         <div className="mt-28 flex w-4/5 flex-col gap-3">
           <div className=" break-words text-center text-sm font-medium text-gray-400">
             Trusted By 250+ Companies

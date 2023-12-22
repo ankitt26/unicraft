@@ -1,3 +1,5 @@
+import Button from "./mini/button";
+
 export default () => {
   return (
     <header className=" mt-5 w-full font-Satoshi text-gray-700">
@@ -16,9 +18,7 @@ export default () => {
             <a href="#faq">FAQ</a>
           </li>
         </ul>
-        <button className="h-12 w-36 rounded-lg border-[1px] border-[#4B5563] px-2 py-2 text-lg font-bold tracking-[-0.48px] text-gray-600 shadow-inner hover:text-gray-500">
-          Contact us
-        </button>
+        <Button text="Contact us" variant="normal_sm" />
       </nav>
     </header>
   );

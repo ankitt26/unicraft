@@ -2,6 +2,7 @@ import Frame1 from "../assets/works/Frame1.png";
 import Frame2 from "../assets/works/Frame2.png";
 import Frame3 from "../assets/works/Frame3.png";
 import Frame4 from "../assets/works/Frame4.png";
+import Button from "./mini/button";
 
 const FrameScroller = () => {
   return (
@@ -56,9 +57,7 @@ export default function RecentWork() {
   return (
     <div className="flex h-[682px] w-full flex-col items-center justify-evenly">
       <FrameScroller />
-      <button className=" h-auto w-auto rounded-lg border-[1px] border-gray-600 px-[51px] py-4 font-Satoshi text-[20px] font-bold tracking-[-0.48px] text-gray-600 shadow-inner">
-        View recent work
-      </button>
+      <Button variant={"normal"} text="View recent work" />
     </div>
   );
 }
