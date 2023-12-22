@@ -2,7 +2,10 @@ import Workdetail from "./mini/workdetail";
 import RightCurveArrow from "../assets/right_curve_arrow.svg";
 export default function HowItWork() {
   return (
-    <div className="mx-auto flex h-[535px] w-11/12 flex-col items-center justify-center gap-3 rounded-3xl border border-gray-200">
+    <div
+      className="mx-auto flex h-[535px] w-11/12 flex-col items-center justify-center gap-3 rounded-3xl border border-gray-200"
+      id="howitwork"
+    >
       <h2 className=" ligh text-5xl font-bold leading-[60px] text-gray-800">
         How it works
       </h2>

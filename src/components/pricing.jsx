@@ -1,7 +1,7 @@
 import Plans from "./mini/plans";
 export default function Pricing() {
   return (
-    <div className="h-auto w-full px-[128px] py-[80px]">
+    <div className="h-auto w-full px-[128px] py-[80px]" id="pricing">
       <div className="flex flex-col items-center justify-between gap-3">
         <h2 className="w-auto break-words text-center text-[58px] font-bold text-gray-800">
           Pricing made for collaborative support.
