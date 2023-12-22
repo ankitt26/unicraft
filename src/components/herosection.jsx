@@ -11,7 +11,7 @@ export const HeroSection = () => {
   return (
     <>
       <div className="mb-10 mt-24 flex h-auto w-full flex-col items-center gap-y-7 font-Satoshi">
-        <h2 className="mx-auto w-11/12 break-words text-center font-Satoshi text-7xl font-black leading-[85px] text-gray-800">
+        <h2 className="mx-auto w-11/12 break-words px-[5%] text-center font-Satoshi text-7xl font-black leading-[85px] text-gray-800">
           Elevate Your Presence with Seamless Design and Innovation.
         </h2>
         <p className=" w-4/5 break-words text-center font-Satoshi text-xl font-medium text-gray-600">

@@ -58,10 +58,8 @@ In this Project I have created a React SPA Landing page using the Figma design T
 
 ## 🚀 See Live  <a name="live-demo"></a>
 
-```sh
-coming soon...
-```
-<!-- > [ 💨 Landing page ](#) -->
+
+> [ 💨 Live here ](https://webmaker.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,13 +76,11 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 
-Example command:
-
 ```sh
-1. IDE installed
-2. Node.js installed
-3. npm installed
-4. Git installed
+1. Code Editor (IDE)
+2. Node.js should be installed
+3. npm should be installed
+4. Git should be installed
 5. Latest v- Browser
 ```
  
@@ -141,11 +137,7 @@ coming soon...
 
 ### Deployment
 
-You can deploy this project using:
-```
-coming soon...
-``` 
-<!-- > ✅ deployed on render [ see live 🎉 ](#) -->
+> 🟩 deployed on render [ see live 🎉 ](https://webmaker.onrender.com/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -193,7 +185,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank webmakers Studio for giving me the opportunity to create a Landing Page.
+> I would like to express my gratitude to Webmakers Studio for generously providing the Figma design template. You can access the template [here](https://www.figma.com/file/uBhgKksR2bcwGGQ2d70dKi/Single-pager-landing-page?type=design&node-id=0%3A1&mode=design&t=0uI4CBWNNhEQBmcZ-1). This resource has been instrumental in creating our landing page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
