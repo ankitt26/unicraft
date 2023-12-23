@@ -10,7 +10,7 @@ export default function Plans({ name, para, cost, access, mode }) {
 
   return (
     <div
-      className={`flex h-[640px] flex-col items-start justify-start gap-10 rounded-2xl border ${theme.border} ${theme.sectionBackground} px-6 py-10 shadow-xl`}
+      className={`flex h-[640px] flex-col items-start justify-start gap-10 rounded-2xl border ${theme.border} ${theme.sectionBackground} px-6 py-10 shadow-xl sm:px-4`}
     >
       <div
         className={`inline-flex h-[249px] w-[330.67px] flex-col items-start justify-start gap-5`}

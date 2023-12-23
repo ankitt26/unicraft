@@ -38,7 +38,11 @@ export function FaqAnswers() {
             <img src={Minus} className="hidden" id={`minus${index + 1}`} />
           </button>
         </div>
-        <hr className="flex self-stretch bg-gray-200" />
+        <hr
+          className={`flex self-stretch bg-gray-200 ${
+            index === 5 ? "hidden" : ""
+          }`}
+        />
       </>
     );
   });

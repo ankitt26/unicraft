@@ -5,7 +5,7 @@ export default function FAQ() {
     <div className=" mb-[135px] max-h-fit w-full px-8 py-[74px]" id="faq">
       <div className="flex flex-col items-center justify-start gap-[64px]">
         <div className="flex max-w-[768px] flex-col items-center justify-start">
-          <h2 className="w-auto break-words text-center text-[58px] font-bold text-gray-800">
+          <h2 className="w-auto break-words text-center text-[58px] font-bold text-gray-800 sm:text-[42px]">
             Frequently asked questions
           </h2>
           <p className="text-center text-xl font-medium text-gray-500">

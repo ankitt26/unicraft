@@ -2,7 +2,7 @@ import Plans from "./mini/plans";
 export default function Pricing() {
   return (
     <div
-      className="tab:px-[5%] h-auto w-full px-[128px] py-[80px]"
+      className="h-auto w-full px-[128px] py-[80px] sm:px-[15px] md:px-[5%]"
       id="pricing"
     >
       <div className="flex flex-col items-center justify-between gap-3">
