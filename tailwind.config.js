@@ -11,11 +11,21 @@ export default {
       },
       animation: {
         scroll: "scroll 30s linear infinite",
+        scrollsm: "scrollsm 30s linear infinite",
+        scrollmd: "scrollmd 30s linear infinite",
       },
       keyframes: {
         scroll: {
           "0%": { transform: "translateX(0px)" },
           "100%": { transform: "translateX(calc(-384px * 4))" },
+        },
+        scrollsm: {
+          "0%": { transform: "translateX(0px)" },
+          "100%": { transform: "translateX(calc(-192px * 4))" },
+        },
+        scrollmd: {
+          "0%": { transform: "translateX(0px)" },
+          "100%": { transform: "translateX(calc(-324px * 4))" },
         },
       },
       screens: {
