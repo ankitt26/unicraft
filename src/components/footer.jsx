@@ -10,7 +10,7 @@ export default function Footer() {
     <>
       <div className=" inline-flex max-h-fit w-full  flex-col items-center justify-start gap-[105px] bg-Gradiant bg-cover bg-no-repeat px-[10%] ">
         <div className="mt-[107px] flex h-auto w-full flex-col items-center gap-y-7 font-Satoshi">
-          <h2 className="mx-auto w-11/12 break-words text-center font-Satoshi text-7xl font-black leading-[85px] text-gray-800">
+          <h2 className="mx-auto w-11/12 break-words text-center font-Satoshi text-7xl font-black leading-[85px] text-gray-800 sm:text-[42px]">
             No long-term contracts.
             <br /> No catches. Simple.
           </h2>
@@ -29,11 +29,11 @@ export default function Footer() {
             <br />
             create more happy in the world.
           </p>
-          <div className="mt-[32px] flex w-full flex-row justify-between">
+          <div className="mt-[32px] flex w-full flex-row justify-between sm:gap-10">
             <p className=" w-full font-['Inter'] text-base font-normal leading-normal text-gray-400">
               © 2077 Untitled UI. All rights reserved.
             </p>
-            <div className="flex w-full flex-row justify-end gap-6">
+            <div className="flex w-full flex-row justify-end gap-6 sm:flex-wrap">
               <a href="#">
                 <img src={Twitter} alt="twitter" />
               </a>

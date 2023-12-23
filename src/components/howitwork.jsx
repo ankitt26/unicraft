@@ -3,7 +3,7 @@ import RightCurveArrow from "../assets/right_curve_arrow.svg";
 export default function HowItWork() {
   return (
     <div
-      className="tab:mt-24 tab:h-auto tab:py-24 mx-auto flex h-[535px] w-11/12 flex-col items-center justify-center gap-3 rounded-3xl border border-gray-200"
+      className="tab:mt-24 tab:h-auto tab:py-24 mx-auto flex h-[535px] w-11/12 flex-col items-center justify-center gap-3 rounded-3xl border border-gray-200 shadow-md"
       id="howitwork"
     >
       <h2 className=" ligh text-5xl font-bold leading-[60px] text-gray-800">
