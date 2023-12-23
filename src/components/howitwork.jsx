@@ -3,17 +3,17 @@ import RightCurveArrow from "../assets/right_curve_arrow.svg";
 export default function HowItWork() {
   return (
     <div
-      className="mx-auto flex h-[535px] w-11/12 flex-col items-center justify-center gap-3 rounded-3xl border border-gray-200"
+      className="tab:mt-24 tab:h-auto tab:py-24 mx-auto flex h-[535px] w-11/12 flex-col items-center justify-center gap-3 rounded-3xl border border-gray-200"
       id="howitwork"
     >
       <h2 className=" ligh text-5xl font-bold leading-[60px] text-gray-800">
         How it works
       </h2>
-      <p className="break-words text-xl font-medium text-gray-600">
+      <p className="break-words px-[5%] text-center text-xl font-medium text-gray-600">
         Premium designs, unlimited requests, super fast delivery, for one flat
         monthly fee.
       </p>
-      <div className="mt-[60px] flex w-[95%] flex-row items-center justify-between">
+      <div className="tab:mt-20 tab:max-h-fit tab:flex-col tab:justify-start tab:gap-[40px] mt-[60px] flex h-auto w-[95%] flex-row items-center justify-between">
         <Workdetail
           num={1}
           head="Subscribe"
@@ -22,7 +22,7 @@ export default function HowItWork() {
         <img
           src={RightCurveArrow}
           alt="Right curve arrow"
-          className="relative bottom-8"
+          className="tab:bottom-5 tab:rotate-90 relative bottom-8"
         />
         <Workdetail
           num={2}
@@ -32,7 +32,7 @@ export default function HowItWork() {
         <img
           src={RightCurveArrow}
           alt="Right curve arrow"
-          className="relative bottom-8"
+          className="tab:bottom-5 tab:rotate-90 relative bottom-8"
         />
         <Workdetail
           num={3}

@@ -34,6 +34,8 @@ export default {
         md: { min: "768.1px", max: "1023px" },
 
         lg: { min: "1024px", max: "1279px" },
+
+        tab: { min: "340px", max: "1023px" },
       },
       backgroundImage: {
         Gradiant: "url('/src/assets/background/Gradient.png')",
