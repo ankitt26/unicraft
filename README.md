@@ -1,13 +1,13 @@
 
 <a name="readme-top"></a>
 
-<div align="center"> <h1> Webmaker</h1>
+<div align="center"> <h1> Unicraft</h1>
 </div>
 
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Webmaker\] ](#-webmaker-)
+- [📖 \[Unicraft\] ](#-unicraft-)
   - [🛠️ Built With ](#️-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -28,7 +28,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Webmaker] <a name="about-project"></a>
+# 📖 [Unicraft] <a name="about-project"></a>
 
 
 In this Project I have created a React SPA Landing page using the Figma design Template.
@@ -59,7 +59,7 @@ In this Project I have created a React SPA Landing page using the Figma design T
 ## 🚀 See Live  <a name="live-demo"></a>
 
 
-> [ 💨 Live here ](https://webmaker.onrender.com/)
+> [ 💨 Live here ](https://unicraft-live.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +94,7 @@ Example commands:
 
 ```sh
   cd my project
-  git clone git@github.com:ankitt26/webmaker.git
+  git clone git@github.com:ankitt26/unicraft.git
 
 ```
 
@@ -137,7 +137,7 @@ coming soon...
 
 ### Deployment
 
-> 🟩 deployed on render [ see live 🎉 ](https://webmaker.onrender.com/)
+> 🟩 deployed on render [ see live 🎉 ](https://unicraft-live.onrender.com)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
