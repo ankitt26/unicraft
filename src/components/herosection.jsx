@@ -10,20 +10,20 @@ import Button from "./mini/button";
 export const HeroSection = () => {
   return (
     <>
-      <div className="mb-10 mt-24 flex h-auto w-full flex-col items-center gap-y-7 font-Satoshi">
-        <h2 className="mx-auto w-11/12 break-words px-[5%] text-center font-Satoshi text-7xl font-black leading-[85px] text-gray-800">
+      <div className="mb-10 mt-24 flex h-auto w-full flex-col items-center gap-y-7 font-Satoshi sm:mt-12">
+        <h2 className="mx-auto w-11/12 break-words text-center font-Satoshi text-7xl font-black leading-[85px] text-gray-800 sm:text-5xl md:w-[90%] lg:px-[5%]">
           Elevate Your Presence with Seamless Design and Innovation.
         </h2>
-        <p className=" w-4/5 break-words text-center font-Satoshi text-xl font-medium text-gray-600">
+        <p className=" w-4/5 break-words text-center font-Satoshi text-xl font-medium text-gray-600 md:w-11/12">
           From strategic planning to digital presence, we&#39;re your dedicated
           partner in achieving solo success.
         </p>
         <Button text={"View Pricing"} variant={"dark"} />
-        <div className="mt-28 flex w-4/5 flex-col gap-3">
+        <div className="mt-28 flex w-4/5 flex-col gap-3 sm:mt-[72px]">
           <div className=" break-words text-center text-sm font-medium text-gray-400">
             Trusted By 250+ Companies
           </div>
-          <div className=" w-mv flex flex-row flex-wrap justify-evenly gap-3 py-4">
+          <div className=" w-mv flex flex-row flex-wrap justify-evenly gap-3 py-4 sm:flex-col sm:gap-10 md:gap-20">
             <img className="" src={Zapier} alt="Zapier" />
             <img className="" src={Spotify} alt="Spotify" />
             <img className="" src={Zoom} alt="Zoom" />
