@@ -5,13 +5,13 @@ import Avatar from "../assets/Avatar.svg";
 
 export default function Quote() {
   return (
-    <div className="mt-[115px] h-[568px] w-full bg-gray-50 px-[90px] py-24">
+    <div className="mt-[115px] w-full bg-gray-50 px-[90px] py-24 sm:px-[5%]">
       <div className="flex flex-col items-center justify-between gap-10 ">
         <div className="flex w-[140.83px] flex-row items-center justify-between">
           <img src={Slogo} alt="logo" />
           <img src={Sisyphus} alt="sisyphus" />
         </div>
-        <h2 className="self-stretch text-center text-5xl font-bold leading-[60px] text-gray-800">
+        <h2 className="self-stretch text-center text-5xl font-bold leading-[60px] text-gray-800 sm:text-2xl md:text-4xl">
           We’ve been with unicraft to kick start every new project and can’t
           imagine working without it.
         </h2>
