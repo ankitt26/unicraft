@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import Tick400 from "../../assets/ticks/tick_400.svg";
 import Tick800 from "../../assets/ticks/tick_800.svg";
 import TickWhite from "../../assets/ticks/tick_white.svg";
@@ -81,4 +83,12 @@ const Features = ({ access, mode }) => {
       </div>
     );
   });
+};
+
+Plans.propTypes = {
+  name: PropTypes.string.isRequired,
+  para: PropTypes.string.isRequired,
+  cost: PropTypes.string.isRequired,
+  access: PropTypes.number.isRequired,
+  mode: PropTypes.string.isRequired,
 };

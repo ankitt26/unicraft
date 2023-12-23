@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function Button({ variant, text }) {
   const commonClasses =
     "inline-flex items-center justify-center gap-2.5 rounded-lg border border-gray-600 py-4 shadow-md font-bold tracking-[-0.48px]";
@@ -12,9 +14,10 @@ export default function Button({ variant, text }) {
 
   const buttonclass = styles[variant] || styles.normal;
 
-  return (
-    <button className={` ${buttonclass} ${commonClasses}`} text={text}>
-      {text}
-    </button>
-  );
+  return <button className={` ${buttonclass} ${commonClasses}`}>{text}</button>;
 }
+
+Button.propTypes = {
+  variant: PropTypes.oneOf(["normal_sm", "normal", "dark"]),
+  text: PropTypes.string.isRequired,
+};

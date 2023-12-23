@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function Workdetail(props) {
   const { num, head, para } = props;
 
@@ -15,3 +17,9 @@ export default function Workdetail(props) {
     </div>
   );
 }
+
+Workdetail.propTypes = {
+  num: PropTypes.number.isRequired,
+  head: PropTypes.string.isRequired,
+  para: PropTypes.string.isRequired,
+};

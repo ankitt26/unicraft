@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Zapier from "../assets/companies/Zapier.svg";
 import Spotify from "../assets/companies/Spotify.svg";
 import Zoom from "../assets/companies/Zoom.svg";

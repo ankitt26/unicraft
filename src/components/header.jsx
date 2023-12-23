@@ -1,6 +1,6 @@
 import Button from "./mini/button";
 
-export default () => {
+export default function Header() {
   return (
     <header className=" mt-5 w-full font-Satoshi text-gray-700">
       <nav className="mx-auto flex h-20 w-[90%] flex-row items-center justify-between">
@@ -22,4 +22,4 @@ export default () => {
       </nav>
     </header>
   );
-};
+}
